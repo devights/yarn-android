@@ -4,6 +4,14 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:id="@+id/profile_link"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:text="Stephen De Vight (Edit profile)"
+        android:textColor="@color/link_color"/>
     <ListView
         android:id="@+id/custom_list"
         android:layout_width="fill_parent"

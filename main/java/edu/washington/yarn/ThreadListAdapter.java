@@ -11,11 +11,11 @@ import java.util.ArrayList;
 
 public class ThreadListAdapter extends BaseAdapter {
 
-	private ArrayList<ThreadList> listData;
+	private ArrayList<Thread> listData;
 
 	private LayoutInflater layoutInflater;
 
-	public ThreadListAdapter(Context context, ArrayList<ThreadList> listData) {
+	public ThreadListAdapter(Context context, ArrayList<Thread> listData) {
 		this.listData = listData;
 		layoutInflater = LayoutInflater.from(context);
 	}
